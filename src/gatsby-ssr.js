@@ -67,9 +67,7 @@ exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions = {}) => {
 exports.wrapRootElement = ({ element }, pluginOptions = {}) => {
   const _options = {
     ...{
-      version: "3.0.29",
-      locales: {},
-      defaultLang: "en",
+      version: "3.2.0",
     },
     ...pluginOptions,
   };
