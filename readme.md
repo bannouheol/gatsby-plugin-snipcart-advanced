@@ -35,9 +35,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-snipcart-advanced`,
       options: {
-        version: "3.0.29",
+        version: "3.2.0",
         publicApiKey: "#####", // use public api key here or in environment variable
-        defaultLang: "fr",
         currency: "eur",
         openCartOnAdd: false,
         useSideCart: true,
@@ -68,7 +67,6 @@ Read the snipcart document [https://docs.snipcart.com/v3](https://docs.snipcart.
 
 - version : define version of snipcart library
 - publicApiKey: Snipcart public api key
-- defaultLang : define default language
 - provideDefaultCurrency: Facilitates multi-currency carts. Set to false to prevent a default currency from being specified, resetting the currency on an active cart session
 - currency : define currency
 - openCartOnAdd : define if the "snipcart" library opens the cart when user clicks on "add to cart" button
@@ -81,8 +79,7 @@ Read the snipcart document [https://docs.snipcart.com/v3](https://docs.snipcart.
 
 Default values :
 
-- version : 3.0.29
-- defaultLang : "en"
+- version : 3.2.0
 - currency : "usd"
 - openCartOnAdd : true
 - useSideCart : false
